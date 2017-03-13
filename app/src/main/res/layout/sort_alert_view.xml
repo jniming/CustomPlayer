@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="286dp"
+			  android:layout_height="245dp"
+			  android:background="@drawable/fillet_write_bg"
+			  android:gravity="center_horizontal"
+			  android:orientation="vertical">
+
+	<LinearLayout android:layout_width="match_parent"
+				  android:layout_height="48dp"
+				  android:gravity="center"
+	>
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:text="@string/sort_alert_item"
+				  android:textColor="@color/main_pop_item_title_color"
+				  android:textSize="15sp"
+		/>
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent"
+				  android:layout_height="1dp"
+				  android:layout_marginLeft="20dp"
+				  android:layout_marginRight="20dp"
+				  android:background="#cccccc"/>
+
+	<FrameLayout android:layout_width="match_parent"
+				 android:layout_height="48dp"
+
+
+	>
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+
+				  android:layout_gravity="center_vertical|left"
+
+				  android:layout_marginLeft="23.3dp"
+				  android:text="@string/sort_alert_item1"
+				  android:textColor="@color/main_pop_item_title_color"
+				  android:textSize="13.3sp"
+		/>
+		<RadioButton android:id="@+id/radio_item1" android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:layout_gravity="center_vertical|right"
+					 android:layout_marginRight="26.7dp"/>
+
+
+	</FrameLayout>
+
+	<LinearLayout android:layout_width="match_parent"
+				  android:layout_height="1dp"
+				  android:layout_marginLeft="20dp"
+				  android:layout_marginRight="20dp"
+				  android:background="#cccccc"/>
+	<FrameLayout android:layout_width="match_parent"
+				 android:layout_height="48dp"
+
+
+	>
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+
+				  android:layout_gravity="center_vertical|left"
+
+				  android:layout_marginLeft="23.3dp"
+				  android:text="@string/sort_alert_item2"
+				  android:textColor="@color/main_pop_item_title_color"
+				  android:textSize="13.3sp"
+		/>
+		<RadioButton android:id="@+id/radio_item2" android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:layout_gravity="center_vertical|right"
+					 android:layout_marginRight="26.7dp"/>
+
+
+	</FrameLayout>
+	<LinearLayout android:layout_width="match_parent"
+				  android:layout_height="1dp"
+				  android:layout_marginLeft="20dp"
+				  android:layout_marginRight="20dp"
+				  android:background="#cccccc"/>
+	<FrameLayout android:layout_width="match_parent"
+				 android:layout_height="48dp"
+
+
+	>
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+
+				  android:layout_gravity="center_vertical|left"
+
+				  android:layout_marginLeft="23.3dp"
+				  android:text="@string/sort_alert_item3"
+				  android:textColor="@color/main_pop_item_title_color"
+				  android:textSize="13.3sp"
+		/>
+		<RadioButton android:id="@+id/radio_item3" android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:layout_gravity="center_vertical|right"
+					 android:layout_marginRight="26.7dp"/>
+
+
+	</FrameLayout>
+	<LinearLayout android:layout_width="match_parent"
+				  android:layout_height="1dp"
+				  android:layout_marginLeft="20dp"
+				  android:layout_marginRight="20dp"
+				  android:background="#cccccc"/>
+	<FrameLayout android:layout_width="match_parent"
+				 android:layout_height="48dp"
+
+
+	>
+		<TextView android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+
+				  android:layout_gravity="center_vertical|left"
+
+				  android:layout_marginLeft="23.3dp"
+				  android:text="@string/sort_alert_item4"
+				  android:textColor="@color/main_pop_item_title_color"
+				  android:textSize="13.3sp"
+		/>
+		<RadioButton android:id="@+id/radio_item4" android:layout_width="wrap_content"
+					 android:layout_height="wrap_content"
+					 android:layout_gravity="center_vertical|right"
+					 android:layout_marginRight="26.7dp"/>
+
+
+	</FrameLayout>
+
+</LinearLayout>

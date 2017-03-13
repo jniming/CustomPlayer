@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:background="@color/bg_color"
+			  android:orientation="vertical">
+	<include android:id="@+id/titleview2" layout="@layout/titlebar3"></include>
+
+	<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+		<android.support.v7.widget.RecyclerView
+			android:id="@+id/video_recy"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:overScrollMode="never"
+			android:paddingBottom="10dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="3dp">
+
+
+		</android.support.v7.widget.RecyclerView>
+
+		<TextView android:id="@+id/mb_text"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:layout_gravity="center"
+				  android:text="@string/video_list_emty"
+				  android:textColor="@color/press_title_color"
+				  android:textSize="16sp"
+		/>
+	</FrameLayout>
+</LinearLayout>

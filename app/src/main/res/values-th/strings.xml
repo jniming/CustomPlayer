@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Xplayer</string>
+
+	<string name="all_filedir">วิดีโอทั้งหมด</string>
+	<string name="main_menu_item1">แสกนเป็นเต็มรูปแบบ</string>
+	<string name="main_menu_item2">ค้นหา</string>
+	<string name="main_menu_item3">ลำดับ</string>
+	<string name="main_menu_item4">เรียกดูไดเรกทอรี</string>
+	<string name="main_menu_item5">ตั้งค่า</string>
+
+	<string name="setting_item_1">ตั้งค่าไฟล์</string>
+	<string name="setting_item_2">ตั้งค่าการเล่นวิดีโอ</string>
+	<string name="setting_item_3">เกี่ยวกับซอฟต์แวร์</string>
+
+	<string name="fiel_setting_item1">แสดงไฟล์ที่ซ่อน</string>
+	<string name="fiel_setting_item2">แสกนไฟล์ต้องไม่ต่ำกว่า1M</string>
+	<string name="fiel_setting_item3">ไม่แสกนไฟล์เสียง</string>
+
+	<string name="player_setting_item1">ถอดรหัสซอร์ฟแวร์เริ่มต้น</string>
+	<string name="player_setting_item2">หมุนจออัตโนมัติ</string>
+	<string name="player_setting_item3">บันทึกความคืบหน้าของการเล่น</string>
+	<string name="video_num_string">วิดีโอ</string>
+	<string name="sort_alert_item1">ใหม่ล่าสุด</string>
+	<string name="sort_alert_item2">ชื่อไฟล์</string>
+	<string name="sort_alert_item3">ความยาว</string>
+	<string name="sort_alert_item4">ขนาด</string>
+	<string name="sort_alert_item">กฎ</string>
+	<string name="Scannering_string">กำลังแสกน…</string>
+	<string name="return_string">กลับ</string>
+	<string name="exit_string">คลิกอีกครั้งเพื่อออก!</string>
+	<string name="scanfinsh">แสกนสำเร็จ</string>
+	<string name="player_error">เล่นไฟล์นี้ไม่ได้</string>
+	<string name="verson_string">หมายเลขเวอร์ชั่น:</string>
+	<string name="update_msg">เป็นเวอร์ชั่นล่าสุดแล้ว</string>
+	<string name="no_player">เล่นไฟล์นี้ไม่ได้!</string>
+	<string name="return_path">ย้อนกลับไปยังเลเวลที่สูงกว่า</string>
+	<string name="base_path">เลเวลสูงสุดแล้ว</string>
+	<string name="so_string">libijkplayer.so</string>
+	<string name="no_promtion">ไม่ได้รับสิทธิ์ในการอ่านไฟล์!กรุณาไปตั้งค่าระบบก่อน-เปิดการใช้สิทธิ์การอ่านไฟล์!</string>
+	<string name="search_hint">ป้อนคำหลัก</string>
+	<string name="file_emty">ไม่มีไฟล์หรือไดเรกทอรี!</string>
+	<string name="update">ตรวจหาการปรับปรุง</string>
+	<string name="video_list_emty">ไม่มีการสแกนไปยังวิดีโอลองค้นหาที่ครอบคลุม!</string>
+
+</resources>

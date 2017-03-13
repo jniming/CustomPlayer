@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="200dp"
+				android:layout_height="140dp"
+				android:background="@drawable/ht_alert_bg"
+      android:paddingTop="10dp"
+				android:orientation="vertical">
+<TextView
+	android:id="@+id/tips"
+ android:gravity="center"
+	android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+	android:textColor="@color/main_pop_item_title_color"
+android:text="提示"/>
+	<TextView
+		android:layout_marginTop="20dp"
+		android:layout_below="@id/tips"
+		android:layout_marginLeft="10dp"
+		android:id="@+id/alert_title"
+		android:layout_marginRight="10dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="是否使用播放器播放该视频"
+		android:textColor="@color/main_pop_item_title_color"
+		android:textSize="14sp"
+	/>
+
+	<LinearLayout
+		android:layout_alignParentBottom="true"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	<Button
+
+		android:id="@+id/yes_btn"
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+
+            android:layout_weight="1"
+			android:background="@drawable/ht_alert_yes_bg"
+			android:text="是"
+			android:textSize="13sp"
+	/>
+	<Button android:layout_width="match_parent"
+			android:id="@+id/no_btn"
+			android:layout_height="40dp" android:layout_weight="1"
+			android:layout_alignTop="@id/yes_btn"
+			android:layout_toRightOf="@id/yes_btn"
+
+			android:background="@drawable/ht_alert_no_bg"
+			android:text="否"
+			android:textSize="13sp"/>
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/activity_setting"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/bg_color"
+>
+	<include layout="@layout/titlebar2"></include>
+	<FrameLayout
+		android:id="@+id/setting_item1"
+		android:layout_width="match_parent"
+		android:layout_height="48dp"
+		android:layout_marginTop="10dp"
+
+		android:background="@drawable/setting_bg_selector"
+	>
+
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				  android:layout_gravity="center_vertical"
+				  android:layout_marginLeft="20dp" android:text="@string/setting_item_1"
+				  android:textColor="#1a1a1a" android:textSize="13.3sp"/>
+
+		<ImageView android:layout_width="wrap_content"
+				   android:layout_height="wrap_content"
+				   android:layout_gravity="right|center_vertical"
+				   android:layout_marginRight="20dp"
+				   android:src="@mipmap/icon_jr"
+		/>
+
+	</FrameLayout>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="0.3dp" android:layout_marginLeft="20dp"
+				  android:layout_marginRight="20dp" android:background="#cccccc"></LinearLayout>
+	<FrameLayout android:id="@+id/setting_item2" android:layout_width="match_parent" android:layout_height="48dp"
+				 android:background="@drawable/setting_bg_selector">
+
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				  android:layout_gravity="center_vertical"
+				  android:layout_marginLeft="20dp" android:text="@string/setting_item_2"
+				  android:textColor="#1a1a1a" android:textSize="13.3sp"/>
+		<ImageView android:layout_width="wrap_content"
+				   android:layout_height="wrap_content"
+				   android:layout_gravity="right|center_vertical"
+				   android:layout_marginRight="20dp"
+				   android:src="@mipmap/icon_jr"
+		/>
+	</FrameLayout>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="0.3dp" android:layout_marginLeft="20dp"
+				  android:layout_marginRight="20dp" android:background="#cccccc"></LinearLayout>
+
+	<FrameLayout android:id="@+id/setting_item3" android:layout_width="match_parent" android:layout_height="48dp"
+				 android:background="@drawable/setting_bg_selector">
+
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+				  android:layout_gravity="center_vertical"
+				  android:layout_marginLeft="20dp" android:text="@string/setting_item_3"
+				  android:textColor="#1a1a1a" android:textSize="13.3sp"/>
+		<ImageView android:layout_width="wrap_content"
+				   android:layout_height="wrap_content"
+				   android:layout_gravity="right|center_vertical"
+				   android:layout_marginRight="20dp"
+				   android:src="@mipmap/icon_jr"
+		/>
+	</FrameLayout>
+
+</LinearLayout>

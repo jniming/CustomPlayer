@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:layout_marginTop="7dp"
+				android:background="@drawable/item_bg_selector"
+
+>
+
+	<ImageView
+		android:id="@+id/item_img"
+		android:layout_width="120dp"
+		android:layout_height="86.7dp"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="6.25dp"
+		android:layout_marginTop="6.25dp"
+		android:background="@color/colorPrimary"
+	/>
+
+	<LinearLayout android:id="@+id/title_layout" android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:layout_marginLeft="7.7dp"
+				  android:layout_marginTop="30dp"
+				  android:layout_toRightOf="@id/item_img"
+				  android:gravity="center_vertical"
+	>
+		<ImageView android:id="@+id/img_bs"
+				   android:layout_width="wrap_content"
+				   android:layout_height="13.3dp"
+				   android:src="@mipmap/icon_bf"/>
+
+		<TextView
+			android:layout_marginRight="10dp"
+			android:id="@+id/item_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignTop="@id/img_bs"
+			android:layout_marginLeft="10dp"
+			android:layout_toRightOf="@id/img_bs"
+			android:gravity="left"
+			android:maxLines="2"
+		    android:ellipsize="end"
+            android:maxEms="15"
+			android:text="http___ali3v4-d.xiaoying.tv_20170103_30lsl_3Tj48s970.mp4"
+			android:textColor="@color/main_item_title"
+			android:textSize="12sp"/>
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/item_screen"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@id/title_layout"
+		android:layout_below="@id/title_layout"
+		android:layout_marginTop="12.7dp"
+		android:text="1080x1920"
+		android:textColor="#737373"
+		android:textSize="10.7sp"
+
+
+	/>
+
+	<TextView
+		android:id="@+id/item_size"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignTop="@id/item_screen"
+		android:layout_marginLeft="10dp"
+		android:layout_toRightOf="@id/item_screen"
+		android:text="1.5G"
+
+		android:textColor="#737373"
+		android:textSize="10.7sp"
+	/>
+	<LinearLayout android:layout_width="120dp"
+				  android:layout_alignRight="@id/item_img"
+				  android:layout_height="16.7dp"
+				  android:layout_alignBottom="@+id/item_img"
+				  android:background="@drawable/video_list_img_bottom" android:gravity="center">
+		<TextView android:id="@+id/item_time"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:text="未播放/01:00:00"
+				  android:textColor="#fefefe"
+				  android:textSize="10sp"/>
+
+
+	</LinearLayout>
+
+</RelativeLayout>

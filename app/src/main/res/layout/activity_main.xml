@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/activity_main"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/bg_color"
+	android:orientation="vertical"
+>
+
+	<include android:id="@+id/titleview" layout="@layout/titlebar"></include>
+
+	<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+		<LinearLayout android:layout_width="match_parent"
+					  android:layout_height="match_parent"
+					  android:overScrollMode="never"
+
+					  android:paddingLeft="10dp"
+					  android:paddingRight="10dp"
+					  android:paddingTop="3dp">
+			<android.support.v4.widget.SwipeRefreshLayout
+				android:id="@+id/swip"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				<android.support.v7.widget.RecyclerView
+					android:id="@+id/main_recv"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:overScrollMode="never">
+
+				</android.support.v7.widget.RecyclerView>
+			</android.support.v4.widget.SwipeRefreshLayout>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_marginLeft="30dp"
+			android:layout_marginRight="30dp"
+			android:id="@+id/mb_text" android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:layout_gravity="center"
+
+				  android:textColor="@color/press_title_color"
+				  android:textSize="16sp"
+		/>
+
+
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:background="@drawable/fillet_write_bg"
+			  android:orientation="vertical"
+			  android:gravity="center"
+			  >
+	<ProgressBar
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+	/>
+	<TextView android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			  android:text="@string/Scannering_string"
+			  android:textColor="@color/main_item_title"
+			  android:textSize="13.3sp"/>
+</LinearLayout>

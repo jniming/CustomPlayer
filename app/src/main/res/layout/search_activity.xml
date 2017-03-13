@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:app="http://schemas.android.com/apk/res-auto"
+			  android:layout_width="match_parent" android:layout_height="match_parent"
+			  android:background="@color/bg_color"
+			  android:orientation="vertical">
+	<include layout="@layout/titlebar2"></include>
+
+	<SearchView android:id="@+id/search_view"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/fillet_write_bg"
+				android:queryHint="@string/search_hint"
+	>
+
+	</SearchView>
+
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/search_recy"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="10dp"
+		android:overScrollMode="never"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp">
+
+	</android.support.v7.widget.RecyclerView>
+</LinearLayout>

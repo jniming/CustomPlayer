@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Xplayer</string>
+	<string name="all_filedir">全部视频</string>
+	<string name="main_menu_item1">全盘扫描</string>
+	<string name="main_menu_item2">搜索</string>
+	<string name="main_menu_item3">排序</string>
+	<string name="main_menu_item4">目录浏览</string>
+	<string name="main_menu_item5">设置</string>
+	<string name="setting_item_1">文件设置</string>
+	<string name="setting_item_2">播放设置</string>
+	<string name="setting_item_3">关于软件</string>
+
+	<string name="fiel_setting_item1">显示隐藏文件</string>
+	<string name="fiel_setting_item2">不扫描少于1M文件</string>
+	<string name="fiel_setting_item3">不扫描音频文件</string>
+
+	<string name="player_setting_item1">默认使用软解码</string>
+	<string name="player_setting_item2">屏幕自动旋转</string>
+	<string name="player_setting_item3">保存播放进度</string>
+	<string name="video_num_string">个视频</string>
+	<string name="sort_alert_item1">最新</string>
+	<string name="sort_alert_item2">文件名</string>
+	<string name="sort_alert_item3">时长</string>
+	<string name="sort_alert_item4">大小</string>
+	<string name="sort_alert_item">排序规则</string>
+	<string name="Scannering_string">扫描中...</string>
+	<string name="return_string">返回</string>
+	<string name="exit_string">再次点击退出!</string>
+	<string name="scanfinsh">扫描完成</string>
+	<string name="player_error">该视频无法播放</string>
+	<string name="verson_string">版本号:</string>
+	<string name="update_msg">已是最新版</string>
+	<string name="no_player">无法播放的文件类型!</string>
+	<string name="return_path">返回上级</string>
+	<string name="base_path">已是最上级</string>
+	<string name="so_string">libijkplayer.so</string>
+	<string name="no_promtion">无文件读取权限!请去系统设置-应用管理里把相关权限开启!</string>
+	<string name="search_hint">输入关键字</string>
+	<string name="file_emty">目录下无相关文件或目录!</string>
+	<string name="update">检查更新</string>
+	<string name="video_list_emty">未扫描到视频,请尝试全盘搜索!</string>
+</resources>

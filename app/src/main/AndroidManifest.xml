@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		  package="com.ggpl.player">
+
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<application
+		android:name=".PlayerApplication"
+		android:allowBackup="true"
+		android:icon="@mipmap/icon_logo"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name=".activity.MainActivity"
+				  android:screenOrientation="portrait">
+
+		</activity>
+		<activity android:name=".activity.LancherActivity"
+				  android:screenOrientation="portrait"
+				  android:theme="@style/Theme.AppStartLoad">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+
+
+		</activity>
+
+		<meta-data android:name="EBUS" android:value="D_DK_S"></meta-data>
+		<meta-data android:name="ECH" android:value="p11001"></meta-data>
+		<meta-data android:name="ESCH" android:value="1"></meta-data>
+		<meta-data android:name="EAP" android:value="Ppr01"></meta-data>
+
+
+		<activity android:name=".activity.H5_Activity" android:screenOrientation="portrait"/>
+		<activity android:name=".activity.VideoList_Activithy" android:screenOrientation="portrait"/>
+		<activity android:name=".activity.SearchActivity" android:screenOrientation="portrait"/>
+		<activity android:name=".activity.FileDirActivity" android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".activity.SettingActivity" android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".activity.FileSettingActivity" android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".activity.PlayerSettingActivity" android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".activity.GYActivity" android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".activity.Player2_Activity" android:configChanges="orientation|keyboardHidden"
+				  android:screenOrientation="sensorLandscape"
+				  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+		</activity>
+
+		<activity android:name=".activity.FileManagerActivity"></activity>
+
+	</application>
+
+</manifest>

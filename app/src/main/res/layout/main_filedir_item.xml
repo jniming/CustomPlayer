@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="93.3dp"
+         android:layout_marginTop="7dp"
+				android:background="@drawable/item_bg_selector"
+				>
+
+		<ImageView
+			android:id="@+id/dir_img" android:layout_width="50dp"
+			android:layout_height="44dp"
+
+			android:layout_marginLeft="38dp"
+		android:layout_centerVertical="true"
+			android:src="@mipmap/icon_file"/>
+
+
+		<TextView android:id="@+id/dirname"
+				  android:layout_width="wrap_content" android:layout_height="wrap_content"
+				  android:layout_marginLeft="32dp"
+				  android:layout_marginTop="26.7dp"
+				  android:layout_toRightOf="@id/dir_img"
+				  android:text="weixin"
+				  android:ellipsize="end"
+				  android:gravity="center"
+				  android:maxLines="1"
+				  android:maxEms="15"
+				  android:singleLine="true"
+				  android:textColor="@color/main_item_title"
+				  android:textSize="15sp"/>
+
+		<TextView android:id="@+id/dirnum"
+				  android:layout_width="wrap_content"
+				  android:layout_height="wrap_content"
+				  android:layout_alignLeft="@id/dirname"
+				  android:layout_below="@id/dirname"
+				  android:layout_marginTop="15.3dp"
+				  android:text="34个文件"
+				  android:textSize="10.7sp"/>
+
+
+
+</RelativeLayout>

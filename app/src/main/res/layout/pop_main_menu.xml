@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="150dp"
+			  android:layout_height="214dp"
+			  android:background="@drawable/fillet_write_bg"
+
+			  android:orientation="vertical">
+
+	<LinearLayout android:id="@+id/item1" android:layout_width="match_parent" android:layout_height="42dp"
+	>
+		<LinearLayout android:layout_width="72dp" android:layout_height="match_parent" android:gravity="center">
+
+			<ImageView android:layout_width="17dp" android:layout_height="17dp" android:src="@mipmap/icon_sam"/>
+		</LinearLayout>
+		<LinearLayout android:layout_width="78dp" android:layout_height="match_parent"
+					  android:gravity="left|center_vertical">
+
+			<TextView android:id="@+id/textView" android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+					  android:text="@string/main_menu_item1" android:textColor="@color/main_pop_item_title_color"
+					  android:textSize="13.3sp"/>
+		</LinearLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp"
+				  android:layout_marginRight="5dp" android:background="#cccccc"></LinearLayout>
+
+
+	<LinearLayout android:id="@+id/item2" android:layout_width="match_parent" android:layout_height="42dp"
+	>
+		<LinearLayout android:layout_width="72dp" android:layout_height="match_parent" android:gravity="center">
+
+			<ImageView android:layout_width="17dp" android:layout_height="18dp" android:src="@mipmap/icon_ss"/>
+		</LinearLayout>
+		<LinearLayout android:layout_width="78dp" android:layout_height="match_parent"
+					  android:gravity="left|center_vertical">
+
+			<TextView android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+					  android:text="@string/main_menu_item2" android:textColor="@color/main_pop_item_title_color"
+					  android:textSize="13.3sp"/>
+		</LinearLayout>
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp"
+				  android:layout_marginRight="5dp" android:background="#cccccc"></LinearLayout>
+	<LinearLayout android:id="@+id/item3" android:layout_width="match_parent" android:layout_height="42dp"
+	>
+		<LinearLayout android:layout_width="72dp" android:layout_height="match_parent" android:gravity="center">
+
+			<ImageView android:layout_width="15dp" android:layout_height="20dp" android:src="@mipmap/icon_px"/>
+		</LinearLayout>
+		<LinearLayout android:layout_width="78dp" android:layout_height="match_parent"
+					  android:gravity="left|center_vertical">
+
+			<TextView android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+					  android:text="@string/main_menu_item3" android:textColor="@color/main_pop_item_title_color"
+					  android:textSize="13.3sp"/>
+		</LinearLayout>
+	</LinearLayout>
+
+
+	<LinearLayout android:orientation="vertical" android:id="@+id/sort_fg"  android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp"
+				  android:layout_marginRight="5dp" android:background="#cccccc"></LinearLayout>
+
+	<LinearLayout android:id="@+id/item4" android:layout_width="match_parent" android:layout_height="42dp"
+	>
+		<LinearLayout android:layout_width="72dp" android:layout_height="match_parent" android:gravity="center">
+
+			<ImageView android:layout_width="15dp" android:layout_height="18dp" android:src="@mipmap/icon_ml"/>
+		</LinearLayout>
+		<LinearLayout android:layout_width="78dp" android:layout_height="match_parent"
+					  android:gravity="left|center_vertical">
+
+			<TextView android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+					  android:text="@string/main_menu_item4" android:textColor="@color/main_pop_item_title_color"
+					  android:textSize="13.3sp"/>
+		</LinearLayout>
+	</LinearLayout>
+
+
+	<LinearLayout android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp"
+				  android:layout_marginRight="5dp" android:background="#cccccc"></LinearLayout>
+
+
+	<LinearLayout android:id="@+id/item5" android:layout_width="match_parent" android:layout_height="42dp"
+	>
+		<LinearLayout android:layout_width="72dp" android:layout_height="match_parent" android:gravity="center">
+
+			<ImageView android:layout_width="18dp" android:layout_height="17dp" android:src="@mipmap/icon_sz"/>
+		</LinearLayout>
+		<LinearLayout android:layout_width="78dp" android:layout_height="match_parent"
+					  android:gravity="left|center_vertical">
+
+			<TextView android:layout_width="wrap_content"
+					  android:layout_height="wrap_content"
+					  android:text="@string/main_menu_item5" android:textColor="@color/main_pop_item_title_color"
+					  android:textSize="13.3sp"/>
+		</LinearLayout>
+	</LinearLayout>
+
+
+
+</LinearLayout>

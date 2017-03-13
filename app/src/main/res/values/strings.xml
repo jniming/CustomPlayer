@@ -1,0 +1,43 @@
+<resources>
+	<string name="app_name">Xplayer</string>
+	<string name="all_filedir">All video</string>
+	<string name="main_menu_item1">Full scan</string>
+	<string name="main_menu_item2">search</string>
+	<string name="main_menu_item3">Sorting</string>
+	<string name="main_menu_item4">Directory browsing</string>
+	<string name="main_menu_item5">site</string>
+	<string name="setting_item_1">File settings</string>
+	<string name="setting_item_2">Play settings</string>
+	<string name="setting_item_3">About software</string>
+
+	<string name="fiel_setting_item1">Show hidden files</string>
+	<string name="fiel_setting_item2">Do not scan less than 1M files</string>
+	<string name="fiel_setting_item3">Do not scan audio files</string>
+
+	<string name="player_setting_item1">The default use of soft decoding</string>
+	<string name="player_setting_item2">The screen automatically rotates</string>
+	<string name="player_setting_item3">Save the progress of the play</string>
+	<string name="video_num_string">video</string>
+	<string name="sort_alert_item1">newest</string>
+	<string name="sort_alert_item2">file name</string>
+	<string name="sort_alert_item3">duration</string>
+	<string name="sort_alert_item4">size</string>
+	<string name="sort_alert_item">Sorting rules</string>
+	<string name="Scannering_string">Scanning...</string>
+	<string name="return_string">return</string>
+	<string name="exit_string">Click again again!</string>
+	<string name="scanfinsh">The scan is done</string>
+	<string name="player_error">The video can not be played</string>
+	<string name="verson_string">version number:</string>
+	<string name="update_msg">Is the latest version</string>
+	<string name="no_player">Can not play the file type!</string>
+	<string name="return_path">Return to superior</string>
+	<string name="base_path">Is the highest level</string>
+	<string name="so_string">libijkplayer.so</string>
+	<string name="no_promtion">No file read permission! Please go to the system settings - application management in the relevant authority to open!</string>
+	<string name="search_hint">Enter keywords</string>
+	<string name="file_emty">No related documents!</string>
+	<string name="update">Check for updates</string>
+	<string name="video_list_emty">Do not scan to video, try full search!</string>
+
+</resources>
